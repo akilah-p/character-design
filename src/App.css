@@ -1,5 +1,9 @@
+
+
+
 .App {
   text-align: center;
+height: 100%;
 }
 
 .App-logo {
@@ -35,4 +39,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 { 
+  color: white;
+  text-align: center;
+}
+
+p { 
+  color: white;
+  font-size:larger;
+  font-weight: bolder;
+}
+
+.controls {color: white;
+}
+
+.character {
+  flex-direction:column;
+  justify-content: end;
+}
+
+section { display: flex;
+}
+
+.left {
+  flex-direction: column;
+
+}
+
+.right { 
+  flex-direction: column;
+}
+
+.phrase {
+  justify-content: center;
+}
+
+.catchphrase {
+  color: black;
+  font: 100;
+  font-weight: bold;
+}
+
+.phrase {
+  color: white;
+}
+
+img {
+  height: 100px;
+  weight: 100px;
 }
