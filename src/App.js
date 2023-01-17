@@ -49,12 +49,12 @@ function App() {
             { <Count { ...{}} />
             }
           </div>
-          <div>
+          <div className="phrase">
             <p> {''}
             You have changed the head {headCount} times, you have changed the shirt {middleCount}{''} times, you have changed the bottom {bottomCount} time. And what about that classic Nic Cage catchphrase!{''}
             </p>
             <Display input={input} />
-            <input className ="Catchphrase" onChange={(e) => setUpdate(e.target.value)}></input>
+            <input className ="catchphrase" onChange={(e) => setUpdate(e.target.value)}></input>
             <button className="btn" onClick={handleSubmit}>
               {''}
               SUBMIT {''}

@@ -8,8 +8,8 @@ export default function Characters({
         <ul>
 
           <li><img className="head" src = { `./${head}-cage.png`}></img></li>
-          <li> <img className="middle" src = { `./${middle}-torso.png`}></img></li> 
-          <li> <img className="bottom" src = { `./${bottom}-pants.png`}></img></li> 
+          <li> <img className="middle" src = { `./${middle}-middle.png`}></img></li> 
+          <li> <img className="bottom" src = { `./${bottom}-bottom.png`}></img></li> 
         </ul>
       </div>
     </div>
