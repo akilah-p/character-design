@@ -3,11 +3,11 @@ import React from 'react';
 const Display = ({ input }) => {
   return (
     <div>
-      <ul>
-        {input.map((phrase) =>(
-          <li key={phrase} value={phrase}>{phrase}</li>
-        ))}
-      </ul>
+      
+      {input.map((phrase) =>(
+        <div key={phrase} value={phrase}>{phrase}</div>
+      ))}
+      
     </div>
   );
 };

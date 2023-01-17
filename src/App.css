@@ -3,5 +3,31 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  font-size: larger;
+  color:white;
+  font-weight: 100;
+  height: 100%;
+  display: flex;
+ }
+
+ p {
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+ }
+ .character {
+  float: right;
+  object-fit: contain;
+padding-bottom: 20px;
+flex-direction: column;
+ }
+
+ h1 {
+  color: white;
+ }
+
+ .controls {
+  color: white;
+  flex-direction: column;
  }
  

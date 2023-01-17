@@ -5,9 +5,12 @@ export default function Characters({
   return (
     <div>
       <div className ="character">
-        <img className="head" src = { `./${head}-cage.png`}></img>
-        <img className="middle" src = { `./${middle}-torso.png`}></img>
-        <img className="bottom" src = { `./${bottom}-pants.png`}></img>
+        <ul>
+
+          <li><img className="head" src = { `./${head}-cage.png`}></img></li>
+          <li> <img className="middle" src = { `./${middle}-torso.png`}></img></li> 
+          <li> <img className="bottom" src = { `./${bottom}-pants.png`}></img></li> 
+        </ul>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Pick from '../components/Pick.js';
+import Pick from '../Components/Pick.js';
 
 export default function Controls({
   head, middle, bottom, handleChange

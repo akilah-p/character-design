@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-import Characters from './components/Characters/Characters.js';
-import Controls from './components/Controls.js';
-import Count from './components/Count.js';
-import Display from './components/Display.js';
+import Characters from './Components/Characters/Characters.js';
+import Controls from './Components/Controls.js';
+import Count from './Components/Count.js';
+import Display from './Components/Display.js';
 import background from './background.png';
 
 function App() {
@@ -53,13 +53,13 @@ function App() {
             <p> {''}
             You have changed the head {headCount} times, you have changed the shirt {middleCount}{''} times, you have changed the bottom {bottomCount} time. And what about that classic Nic Cage catchphrase!{''}
             </p>
+            <Display input={input} />
             <input className ="Catchphrase" onChange={(e) => setUpdate(e.target.value)}></input>
             <button className="btn" onClick={handleSubmit}>
               {''}
               SUBMIT {''}
             </button>
           </div>
-          <Display input={input} />
         </section>
       </main>
 
